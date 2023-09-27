@@ -52,5 +52,12 @@ public class Main {
         }
         System.out.println(total1);
 
+        // Задача 10
+        int number = 2;
+        for (int i = 1; i <= 10; i++) {
+            int result = number *i;
+            System.out.println(number + " * " + i + " = " + result);
+        }
+
     }
 }
