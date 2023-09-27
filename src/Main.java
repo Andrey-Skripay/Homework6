@@ -35,11 +35,22 @@ public class Main {
         // Задача 8
         int savings = 29000; // Переменная сумма вклада
         int total = 0; // Переменная сумма накопления
-        for (int  i = 0; i <= 12; i ++){
+        for (int  i = 1; i <= 12; i ++){
             total = total + savings;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total);
         }
         System.out.println(total);
+
+        // Задача 9
+
+        int savings1 = 29000; // Переменная сумма вклада
+        int total1 = 0; // Переменная сумма накопления
+        for (int  i = 1; i <= 12; i ++){
+            total1 = total1 + total1/100;
+            total1 = total1 + savings1;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total1);
+        }
+        System.out.println(total1);
 
     }
 }
