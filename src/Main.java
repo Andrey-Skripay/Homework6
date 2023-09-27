@@ -32,6 +32,14 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+        // Задача 8
+        int savings = 29000; // Переменная сумма вклада
+        int total = 0; // Переменная сумма накопления
+        for (int  i = 0; i <= 12; i ++){
+            total = total + savings;
+            System.out.println("Месяц " + i + " сумма накоплений равна " + total);
+        }
+        System.out.println(total);
 
     }
 }
